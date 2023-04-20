@@ -1,0 +1,139 @@
+.cart .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+  position: relative;
+}
+
+.cart .title .titleAmount {
+  float: right;
+}
+
+.cart .listProduct .cartItem {
+  display: flex;
+  padding: 20px 0;
+  transition: fade-in 1s ease-in-out;
+}
+
+.cart .listProduct .cartItem .cartItemLeft {
+  flex: 0;
+}
+
+.cart .listProduct .cartItem .cartItemLeft .cartItemImage {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #eee;
+  margin-right: 34px;
+}
+
+.cart .listProduct .cartItem .cartItemLeft .cartItemImage img {
+  display: block;
+  width: 140%;
+  transform: rotate(-28deg) translateY(-40px);
+  filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+  overflow: clip;
+}
+
+.cart .listProduct .cartItem .cartItemRight {
+  flex: 1;
+}
+
+.cart .listProduct .cartItem .cartItemRight .cartItemName {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.cart .listProduct .cartItem .cartItemRight .cartItemPrice {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.cart .listProduct .cartItem .cartItemRight .cartItemActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cart .listProduct .cartItem .cartItemRight .cartItemActions .cartItemCount {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cart
+  .listProduct
+  .cartItem
+  .cartItemRight
+  .cartItemActions
+  .cartItemCount
+  .btnDecrease,
+.cart
+  .listProduct
+  .cartItem
+  .cartItemRight
+  .cartItemActions
+  .cartItemCount
+  .btnIncrease {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 100%;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cart
+  .listProduct
+  .cartItem
+  .cartItemRight
+  .cartItemActions
+  .cartItemCount
+  .countNumber {
+  font-size: 14px;
+  margin: 0 8px;
+  width: 20px;
+  text-align: center;
+}
+
+.cart .listProduct .cartItem .cartItemRight .cartItemActions .cartItemRemove {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6c90e;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cart
+  .listProduct
+  .cartItem
+  .cartItemRight
+  .cartItemActions
+  .cartItemRemove
+  img {
+  width: 16px;
+  height: 16px;
+}
